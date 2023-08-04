@@ -1,0 +1,194 @@
+/* Add your CSS styles for Homepage here */
+.homepage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightcyan;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: gray;
+}
+
+.logo {
+  font-size: 24px;
+  color: navy; /* Navy blue color for the logo */
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+  cursor: pointer;
+  color: navy; /* Navy blue color for the navigation links */
+}
+
+.search-bar {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: #007bff; /* Light green background color for the search button */
+  color: navy; /* Navy blue color for the search button text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-section {
+  margin: 40px 0;
+}
+
+.featured-products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  flex: 0 0 30%;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.product button {
+  padding: 8px 12px;
+  background-color: #007bff; /* Light green background color for the "View Details" button */
+  color: navy; /* Navy blue color for the "View Details" button text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-categories {
+  margin: 40px 0;
+}
+
+.product-categories h2 {
+  margin-bottom: 20px;
+}
+
+.product-categories ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-categories li {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  color: navy; /* Navy blue color for the category links */
+}
+
+.product-highlights {
+  margin: 40px 0;
+}
+
+.product-highlights h2 {
+  margin-bottom: 20px;
+}
+
+.product-highlight {
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-highlight img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.product-highlight h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-highlight p {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.product-highlight button {
+  padding: 8px 12px;
+  background-color: #007bff; /* Light green background color for the "View Details" button */
+  color: navy; /* Navy blue color for the "View Details" button text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  font-size: 24px;
+}
+
+.social-icons i {
+  margin-right: 10px;
+  cursor: pointer;
+  color: navy; /* Navy blue color for social media icons */
+}

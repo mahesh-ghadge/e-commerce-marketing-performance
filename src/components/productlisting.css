@@ -1,0 +1,164 @@
+/* Add this CSS to your component or import it from a separate CSS file */
+
+.product-listing-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lightcyan;
+}
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+  cursor: pointer;
+  color: navy; /* Navy blue color for the navigation links */
+}
+
+/*
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+*/
+
+/*
+nav a:hover {
+  color: #007bff;
+}
+*/
+
+.search-bar {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: #007bff; /* Light green background color for the search button */
+  color: navy; /* Navy blue color for the search button text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hero Section styles */
+.hero {
+  background-color: #007bff;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+/* Product Categories styles */
+.categories {
+  padding: 20px;
+}
+
+.categories h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.categories ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.categories li {
+  margin: 0 10px;
+}
+
+.categories a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Product Highlights styles */
+.highlights {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.highlights h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease;
+}
+
+.product-card img {
+  width: 300px;
+  max-height: 300px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-card h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.product-card p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}

@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: navy; /* Navy blue color for the logo */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+  cursor: pointer;
+  color: navy; /* Navy blue color for the navigation links */
+}
+
+.search-bar {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  margin-left: 10px;
+  background-color: lightgreen; /* Light green background color for the search button */
+  color: navy; /* Navy blue color for the search button text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
